@@ -40,16 +40,3 @@
 #     print('welcome!<3', a)
 
 # welcome('mariami')
-
-
-
-# def odd_sum(a):
-#     odd_new = []
-#     for i in a:
-#         if i % 2 != 0:
-#             odd_new.append(i)
-#     return sum(odd_new)
-
-# a = range(10)
-# b = odd_sum(a)
-# print(5 + b)
