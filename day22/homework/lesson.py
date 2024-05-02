@@ -1,24 +1,11 @@
-def numbers_product(start, end, step):
-    listn= []
-    listm = []
-    while start <= end:
-        listn.append(start)
-        start+=step
-       
-    for i in listn:
-        if i % 3 == 0:
-            listm.append(i)
-    sum = 1
-    for i in listm:
-        sum*=i
-    return sum
+# for i in range(101):
+#     print (i)
 
-print (numbers_product(1,20,1)) 
+# for i in range(20,41):
+#     print (i)
 
+# for i in range(75,101,2):
+#     print(i)
 
-def math (x,y):
-    print (x+y)
-    print(x-y)
-    print(x*y)
-    print(x/y)
-math(500200,100)
+for i in "mariami":
+    print(i)
