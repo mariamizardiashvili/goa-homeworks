@@ -22,7 +22,8 @@ films= ["avatar,home alone,nikolas..."]
 
 
 #   2) # შექმნათ სია სადაც მოათავსებთ თქვენი ოჯახის წევრების სახელებს(მინიმუმ 10 სახელი) და შემდეგ კი დაბეჭდავთ გრძელ წინადადებაში ყველა სახელს ერთად მაგ. ჩემი სახელია {თქვენი სახელი} ჩემი დედიკოს სახელია {დედიკოს სახელი} ჩემი მამიკოს სახელია {მამიკოს სახელს}
-
+members =["mariami", "gia", "sofo", "nino"]
+print("me var " + members[0] + " mamachems qvia " + members[1] + " dedachems qvia " + members[2] + " chem das qvia " + members[3]) 
 
 
 
