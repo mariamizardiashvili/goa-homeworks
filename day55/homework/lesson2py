@@ -1,0 +1,3 @@
+def listn(word1,word2):
+    return word1 + word2
+print(listn("გამარჯობა,","მეგობარო"))
