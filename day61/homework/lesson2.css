@@ -1,0 +1,10 @@
+/* სტილის დამკვიდრება არის cssის მეშვეობით htmlის ელემენტის თვისებების შეცვლა*/
+/* 3) ააგეთ საიტი თქვენით შერჩეულ თემატიკაზე, რომელსაც გასტილავთ დღეს შესწავლილი მასალით: descendant selectors, id, class. გამოიყენეთ external css */
+p{
+    color: red;
+    font-size: 20px;
+
+}
+body{
+    background-color:purple ;
+}
