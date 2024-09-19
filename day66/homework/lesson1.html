@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Example</title>
+    <style>
+        /* მშობელი დივი */
+        .parent {
+            font-size: 50px;
+            border: 1px solid black; /* ეს ხაზგასასმელად */
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* შვილობილი დივი */
+        .child {
+            font-size: 125px; /* მშობელი დივის 25% */
+            border: 1px solid red; /* ეს ხაზგასასმელად */
+            padding: 10px;
+        }
+
+        /* პარაგრაფი */
+        .child p {
+            font-size: 50%; /* მშობელი დივის 50% */
+        }
+    </style>
+</head>
+<body>
+
+<div class="parent">
+    მშობელი დივი
+    <div class="child">
+        შვილი დივი
+        <p>პარაგრაფი</p>
+    </div>
+</div>
+
+</body>
+</html>

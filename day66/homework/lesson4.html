@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>დივის და ფოტოს მაგალითი</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .parent {
+            width: 1000px;
+            height: 1000px;
+            background-color: #cccccc; /* ფონი დასაშვები */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .child {
+            width: 250px; /* მშობლის სიგანის ნახევრის ნახევარი */
+            height: 250px; /* მშობლის სიმაღლის ნახევრის ნახევარი */
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* ფოტო სრულად მოიცავს დივს */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <img src="https://via.placeholder.com/500" alt="Placeholder Image">
+            <img src="./download.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
