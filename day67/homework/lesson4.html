@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ზემოთ და ქვემოთ ხაზგასმული ტექსტი</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .highlight {
+            text-decoration: underline; /* ხაზგასმა ზემოთ */
+            font-weight: bold; /* ხაზგასმით */
+        }
+        .highlight:after {
+            content: ' '; /* ქვემოთ ხაზგასმისთვის */
+            text-decoration: underline; /* ხაზგასმა ქვემოთ */
+        }
+    </style>
+</head>
+<body>
+    <h1>ეს არის მაგალითი</h1>
+    <p class="highlight">ეს ტექსტი არის ხაზგასმული ორივე მხრიდან.</p>
+</body>
+</html>

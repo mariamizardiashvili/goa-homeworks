@@ -1,0 +1,12 @@
+body{
+    color: blue;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+body p:nth-last-of-type(1){
+    text-shadow: 10px 10px 15px black;
+    color: chartreuse;
+    background-color: dodgerblue;
+}

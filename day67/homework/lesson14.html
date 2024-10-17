@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ბრენდის სათაური</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        h1 {
+            text-decoration: overline; /* ზედა ხაზგასმა */
+            text-decoration-color: red; /* ზედა ხაზგასმის ფერი */
+            text-decoration: underline; /* ქვედა ხაზგასმა */
+            text-decoration-color: blue; /* ქვედა ხაზგასმის ფერი */
+            text-decoration-style: solid; /* სტილი */
+        }
+        /* წითელი ზედა ხაზგასმისა და ლურჯი ქვედა ხაზგასმისთვის უნდა ვიშველიოთ მათი გამოყენება */
+        h1 {
+            position: relative;
+            z-index: 1;
+        }
+        h1::before,
+        h1::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+        }
+        h1::before {
+            top: -1.5em; /* ზედა ხაზგასმის მდებარეობა */
+            height: 2px;
+            background-color: red; /* წითელი */
+        }
+        h1::after {
+            bottom: -0.5em; /* ქვედა ხაზგასმის მდებარეობა */
+            height: 2px;
+            background-color: blue; /* ლურჯი */
+        }
+    </style>
+</head>
+<body>
+    <h1>ეს არის წითელი და ლურჯი ხაზგასმით სათაური</h1>
+</body>
+</html>
