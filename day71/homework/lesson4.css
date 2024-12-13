@@ -1,0 +1,12 @@
+h1{
+    color: dodgerblue;
+    background-color: brown;
+    text-decoration: line-through;
+}
+p{
+    color: chartreuse;
+}
+body{
+    background-color: green;
+    font-family: sans-serif;
+}

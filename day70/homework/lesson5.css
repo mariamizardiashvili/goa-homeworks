@@ -1,0 +1,30 @@
+.hello{
+   text-decoration: underline dotted green;
+}
+.world{
+    text-decoration: line-through;
+}
+.goal{
+    text-decoration: underline;
+}
+.oriented{
+    text-decoration: line-through dotted green;
+}
+.academy{
+    text-decoration: line-through;
+}
+.is{
+    text-decoration: overline;
+}
+.the{
+    color: green;
+    text-decoration: overline green;
+}
+.best{
+    color: grey;
+    text-decoration: overline grey;
+    text-transform: uppercase;
+}
+.one{
+    text-decoration: underline dotted green;
+}
